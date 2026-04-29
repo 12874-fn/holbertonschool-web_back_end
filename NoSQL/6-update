@@ -1,6 +1,5 @@
+// Updates the address of all Holberton school documents
 db.school.updateMany(
   { name: "Holberton school" },
   { $set: { address: "972 Mission street" } }
 )
-
-
