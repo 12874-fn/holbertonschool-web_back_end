@@ -1,2 +1,4 @@
-// my comment
-db.school.insertOne({ "nInserted" : 1 })
+// Inserts a new document in the school collection
+db.school.insertOne({ name: "Holberton school" });
+
+
